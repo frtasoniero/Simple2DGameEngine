@@ -13,5 +13,5 @@ $ sudo apt-get install libsdl2-mixer-dev
 ```
 - Lua
 ```
-$ sudo apt-get install lua5.3
+$ sudo apt-get install lua5.3-dev
 ```
