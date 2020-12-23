@@ -15,5 +15,5 @@ int main(int argc, char *args[]) {
 
     game->Destroy();
 
-    return EXIT_SUCCESS;
+    return 0;
 }
