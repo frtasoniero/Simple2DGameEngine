@@ -35,3 +35,12 @@ std::vector<Entity*> EntityManager::GetEntities() const {
 unsigned int EntityManager::GetEntityCount() {
     return entities.size();
 }
+
+void EntityManager::ListAllEntities() const {
+    unsigned i = 0;
+    for (auto& entitie: entities) {
+        std::cout << "Entity[" << i << "]: " << entitie->name << std::endl;
+        entitie->ListAllComponents();
+        i++;
+    }
+}
